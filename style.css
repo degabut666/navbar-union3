@@ -1,0 +1,63 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 17%;
+  background-color: #222;
+}
+
+.navdiv {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 6.5vh;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 13px;
+}
+.firstname {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastname {
+  color: white;
+  font-weight: 590;
+  font-size: 17px;
+  padding-left: 1%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navigation > li > a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
